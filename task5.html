@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task5</title>
+
+    <style>
+        table {
+            border: 2px solid rgb(10, 0, 0);
+            width: 100%;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid rgb(7, 1, 1);
+        }
+
+        .address {
+            height: 200px;
+        }
+
+        #specialinput {
+            width: auto;
+        }
+
+        #secondlastcheckbox,
+        #lastlink {
+            border: 0px solid rgb(250, 243, 243)
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: rgb(70, 70, 216);"> Registration Form </h1>
+
+    <table border="0">
+        <tr>
+            <td><label for "first_name"> First name : </label></td>
+            <td><input type="text" name="first_name" placeholder="Enter your first name" /></td>
+        </tr>
+        <tr>
+            <td><label for "last_name"> Last name : </label></td>
+            <td><input type="text" name="last_name" placeholder="Enter your Last name" /></td>
+        </tr>
+        <tr>
+            <td><label for "email"> Email : </label></td>
+            <td><input type="email" name="email" placeholder="Enter your email" /></td>
+        </tr>
+
+        <tr>
+            <td><label for "password"> Password : </label></td>
+            <td><input type="password" name="password" placeholder="Enter your Password" /></td>
+        </tr>
+        <tr>
+            <td><label for "re_password"> Re Password : </label></td>
+            <td><input type="password" name="re_password" placeholder="Enter your Password again" /></td>
+        </tr>
+
+        <tr>
+            <td><label> Gender: </label></td>
+            <td>
+                <input type="radio" name="Gender" checked /> Male
+                <br />
+                <input type="radio" name="Gender" /> Female
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <td><label for "age"> Age : </label></td>
+            <td><input type="number" name="age" placeholder="Enter your Age" /></td>
+        </tr>
+
+        <tr>
+            <td><label for "phone_number"> Phone Number : </label></td>
+            <td><input type="number" name="phone_number" placeholder="Enter your phone number" /></td>
+        </tr>
+
+
+        <tr class="address">
+            <td><label for "address"> Address : </label></td>
+            <td><input type="" name="address" placeholder="Enter your Address" /></td>
+        </tr>
+
+        <tr>
+            <td><label for "state"> State : </label></td>
+            <td><input type="text" name="state" placeholder="Enter your state" /></td>
+        </tr>
+
+
+        <tr>
+            <td><label for "country"> Country : </label></td>
+            <td><select name="country">
+                    <option> India </option>
+                    <option> US </option>
+                    <option> Canada </option>
+                    <option> Japan </option>
+                </select></td>
+        </tr>
+
+        <tr>
+            <td><label for "lang"> Languages Known : </label></td>
+            <td>
+                <input type="checkbox" /> English
+                <input type="checkbox" /> Kannada
+                <input type="checkbox" /> Hindi
+                <input type="checkbox" /> Telugu
+            </td>
+        </tr>
+
+        <tr>
+            <td id="secondlastcheckbox">
+                <input type="checkbox" /> Hereby I declare the given details are true
+            </td>
+        </tr>
+
+        <tr>
+            <td id="lastlink">
+                Log in to <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUOcmljayByb2xsIHNvbmc%3D">Ehnus </a>
+                webiste
+            </td>
+        </tr>
+
+    </table>
+
+    <br />
+    <input id="specialinput" type="submit" value="Save" />
+
+
+</body>
+
+</html>

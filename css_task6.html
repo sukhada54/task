@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task5</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c8c8c8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            padding: 90px;
+            background-color: #c6dade;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .profile-photo {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+        }
+
+        .input-group {
+            margin-bottom: 10px;
+        }
+
+        .input-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .input-group input {
+            width: 300px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .remember-me {
+            width: 300px;
+            text-align: left;
+            padding: 10px;
+        }
+
+        .submit-button {
+            background-color: #007bff;
+            width: 300px;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .reset_btn {
+            padding-top: 10px;
+            display: block;
+        }
+
+        .forget_pass {
+            padding-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="profile-photo" src="./img3.jpg" alt="Your Personal Photo">
+
+        <form>
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="input-group1 remember-me">
+
+                <label for="remember"></label>
+                <input type="checkbox" id="remember" name="remember">Remember me
+
+            </div>
+
+            <div>
+                <button class="submit-button" type="submit">Submit</button>
+            </div>
+
+            <div class="reset_btn">
+                <input type="reset" value="Cancel" />
+
+            </div>
+
+            <div class="forget_pass">
+                <a href="">forget password ?</a>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

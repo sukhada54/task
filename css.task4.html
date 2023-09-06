@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+
+    <style>
+        nav {
+            position: absolute;
+            top: 100px;
+        }
+
+        #mySidenav a {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        #mySidenav a:hover {
+            left: 0;
+        }
+
+        #about {
+            top: 100px;
+            background-color: #099662;
+        }
+
+        #blog {
+            top: 160px;
+            background-color: #2d9efa;
+        }
+
+        #projects {
+            top: 220px;
+            background-color: #ea372a;
+        }
+
+        #contact {
+            top: 280px;
+            background-color: #383737;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1> Hoverable Sidenav Buttons </h1>
+    </div id="nav">
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="about"> About </a>
+        <a href="#" id="blog"> Blog </a>
+        <a href="#" id="projects"> Projects </a>
+        <a href="#" id="contact"> Contact </a>
+    </div>
+
+</body>
+
+</html>
